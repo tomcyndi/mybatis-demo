@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://xxx:3306/kk
+    username: xxx
+    password: xxx
+
+mybatis:
+  type-aliases-package: com.example.mybatisdemo.entity
+  mapper-locations: classpath*:mapper/*.xml
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  pageSizeZero: false
